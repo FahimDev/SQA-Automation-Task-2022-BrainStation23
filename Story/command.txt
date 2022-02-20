@@ -1,0 +1,18 @@
+To run the full automation:
+[go to the root directory of this project and open cmd]
+
+>>robot TestCases
+
+---------------------------------------------------------
+To run a specific Test Scenario: 
+[go to the root directory of this project and open cmd]
+
+>>robot TestCases/TS_MyStore_001.robot
+
+---------------------or-----------------------
+
+>>robot TestCases/TS_MyStore_002.robot
+
+---------------------or-----------------------
+
+>>robot TestCases/TS_MyStore_003.robot

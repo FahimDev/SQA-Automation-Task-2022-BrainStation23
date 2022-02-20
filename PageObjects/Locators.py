@@ -57,7 +57,8 @@ btn_submit_registration = 'id:submitAccount'
 
 
 #Shopping
-select_sort_by = 'selectProductSort'
+select_sort_by = 'id:selectProductSort'
+in_stock = 'xpath://*[@id="center_column"]/ul/li/div/div[2]/span/span'
 first_item = 'xpath://*[@id="center_column"]/ul/li'
 item_details_tag = 'xpath://*[@id="center_column"]/ul/li/div/div[2]/div[2]/a[2]'
 btn_add_cart = 'xpath://*[@id="add_to_cart"]/button'#ProductDetailPage

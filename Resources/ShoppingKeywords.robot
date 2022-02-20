@@ -45,7 +45,7 @@ Add to cart and checkout
 
 
 Get first item of the list
-    #scroll element into view    ${first_item}
+    execute javascript  window.scrollTo(0,600)
     click element   ${first_item}
     sleep   5s
     click element   ${item_details_tag}
